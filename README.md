@@ -48,3 +48,13 @@ ng add @angular/material --defaults
 # Creating a flat module for importing Material Design dependencies
 ng g m shared/material --flat
 ```
+
+### Step 3: Install NgRx
+
+```shell
+ng add @ngrx/store@latest
+
+ng add @ngrx/store-devtools@latest
+
+ng add @ngrx/effects@latest
+```
