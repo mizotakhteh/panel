@@ -39,3 +39,12 @@ ng new panel --defaults --style=scss
 cd panel
 ```
 
+### Step 2: Install material design
+
+```shell
+# https://material.angular.io/guide/getting-started#install-angular-material
+ng add @angular/material --defaults
+
+# Creating a flat module for importing Material Design dependencies
+ng g m shared/material --flat
+```
