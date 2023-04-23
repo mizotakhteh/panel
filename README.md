@@ -58,3 +58,15 @@ ng add @ngrx/store-devtools@latest
 
 ng add @ngrx/effects@latest
 ```
+
+### Step 4: Install Flex-Layout
+
+```shell
+yarn add -s @angular/flex-layout
+```
+
+### Step 5: Add Routing Module
+
+```shell
+touch src/app/app-routing.module.ts
+```
