@@ -70,3 +70,11 @@ yarn add -s @angular/flex-layout
 ```shell
 touch src/app/app-routing.module.ts
 ```
+
+### Step 6: Add Core Module
+
+In regard to the **Core module** pattern, we create a Core module in our application.
+
+```shell
+ng g m core 
+```
