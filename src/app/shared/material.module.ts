@@ -22,28 +22,6 @@ import { MatStepperModule } from "@angular/material/stepper";
 
 @NgModule({
   declarations: [],
-  imports: [
-    MatButtonModule,
-    MatIconModule,
-    MatSidenavModule,
-    MatToolbarModule,
-    MatCardModule,
-    MatInputModule,
-    MatListModule,
-    MatRadioModule,
-    MatSelectModule,
-    MatFormFieldModule,
-    MatTabsModule,
-    MatMenuModule,
-    MatExpansionModule,
-    MatStepperModule,
-    MatTableModule,
-    MatButtonToggleModule,
-    MatBadgeModule,
-    MatDividerModule,
-    MatProgressBarModule,
-    MatProgressSpinnerModule
-  ],
   exports: [
     MatButtonModule,
     MatIconModule,
