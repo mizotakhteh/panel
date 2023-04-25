@@ -78,3 +78,9 @@ In regard to the **Core module** pattern, we create a Core module in our applica
 ```shell
 ng g m core 
 ```
+
+### Step 7: Add Theme Service
+
+```shell
+ng g s core/services/theme
+```

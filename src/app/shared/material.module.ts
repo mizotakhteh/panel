@@ -19,6 +19,8 @@ import { MatSelectModule } from "@angular/material/select";
 import { MatTabsModule } from "@angular/material/tabs";
 import { MatMenuModule } from "@angular/material/menu";
 import { MatStepperModule } from "@angular/material/stepper";
+import { MatSlideToggleModule } from "@angular/material/slide-toggle";
+import { MatTooltipModule } from "@angular/material/tooltip";
 
 @NgModule({
   declarations: [],
@@ -42,7 +44,9 @@ import { MatStepperModule } from "@angular/material/stepper";
     MatBadgeModule,
     MatDividerModule,
     MatProgressBarModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    MatSlideToggleModule,
+    MatTooltipModule
   ]
 })
 export class MaterialModule {

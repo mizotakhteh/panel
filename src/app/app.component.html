@@ -10,6 +10,16 @@
         <mat-icon>menu</mat-icon>
       </button>
       <router-outlet name="toolbar" class="spacer"></router-outlet>
+      <button mat-icon-button matTooltip="LIGHT MODE" *ngIf="darkMode$ | async; else lightMode"
+              (click)="setDarkMode(false)">
+        <mat-icon>light_mode</mat-icon>
+      </button>
+      <ng-template #lightMode>
+        <button mat-icon-button matTooltip="DARK MODE"
+                (click)="setDarkMode(true)">
+          <mat-icon>dark_mode</mat-icon>
+        </button>
+      </ng-template>
       <button mat-icon-button [matMenuTriggerFor]="menu">
         <mat-icon>more_vert</mat-icon>
       </button>
